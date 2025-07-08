@@ -1,0 +1,11 @@
+[project]
+name = "ucar-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.11"
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "fastapi>=0.116.0",
+    "uvicorn>=0.35.0",
+]
